@@ -7,11 +7,11 @@ module.exports = {
   entry: {
     index: './src/index.js',
     print: './src/print.js',
-    book: './src/book.js',
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'Development',
+      title: 'Output management',
+      scriptLoading:"defer"
     })
   ],
   output: {
